@@ -20,14 +20,14 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: {github_user}/{repository}
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: W8tLT2xE0eEgKdtr6r6jWJhgnqG6VtAHiVrD546eQ5I=
 
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: Jr5n8TBh8WM7pD3+vGXP53pNs3MwzdCeEuEN+SbXW48=
   mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: Thsf1QDfZfXHM6MpUabG0wKbtBHlzvukIVC/NFAx/E4=
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true
@@ -41,7 +41,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: YOUR_CHOCO_API_KEY_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+    secure: EsnWuna/K5RAhBhQ3s0IV7IgoCySfD2ruYgx8L7mH9u14xd+DLRfl5fEU3A369c8
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
