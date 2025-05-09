@@ -22,11 +22,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>8.4.40.20230426</version>
 	<projectUrl>https://phorest.com/</projectUrl>
 	<licenseUrl>https://www.phorest.com/termsandconditions/</licenseUrl>
+  <iconUrl>https://raw.githubusercontent.com/jarihu/au-packages/refs/heads/master/assets/phorest-small-logo.ico</iconUrl>
 	<docsUrl>https://support.phorest.com/hc/en-us</docsUrl>
     <owners>jarihu</owners>
-    <title>Phorest (Install)</title>
+    <title>Phorest Desktop (Install)</title>
     <authors>Phorest</authors>
-    <copyright>2023 Phorest</copyright> 
+    <copyright>2025 Phorest</copyright> 
     <tags>phorest</tags>
     <summary>Phorest Salon Software</summary>
     <description>Note! The use of this software requires a commercial license. "We build you your own salon app to make it even easier for your clients to schedule, rebook, and manage appointments. Bookings are secured by deposit for no-show protection. Salon Booking App."</description>
