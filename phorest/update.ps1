@@ -1,7 +1,7 @@
 import-module au
 
 $releases = 'https://www.phorest.com/us/downloads/'
-$versionRegex = 'Phorest%20Desktop-([0-9]+\.[0-9]+\.[0-9]+)%20Setup\.exe$'
+$versionRegex = '-([0-9]+\.[0-9]+\.[0-9]+).Setup\.exe$'
 
 function global:au_SearchReplace {
     @{
