@@ -18,6 +18,8 @@ function global:au_GetLatest {
      $url     = $download_page.links | ? href -match $regex | select -First 1 -expand href #2
 	 $url -match $versionRegex
 	 $version = $Matches[1]
+     # Encode spaces
+     $url = [System.Uri]::EscapeUriString($url)
      return @{ Version = $version; URL32 = $url }
 }
 
